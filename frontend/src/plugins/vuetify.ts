@@ -1,17 +1,8 @@
 import Vue from 'vue'
-import Vuetify, { VSnackbar, VBtn, VIcon } from 'vuetify/lib'
-import VuetifyToast from 'vuetify-toast-snackbar'
+import Vuetify from 'vuetify/lib'
 
-Vue.use(Vuetify, {
-  components: {
-    VSnackbar,
-    VBtn,
-    VIcon,
-  },
-})
-
-Vue.use(VuetifyToast)
+Vue.use(Vuetify)
 
 export default new Vuetify({
-  theme: { dark: localStorage.getItem('theme') === 'true' || false },
+    theme: {dark: localStorage.getItem('theme') === 'true' || false},
 })
