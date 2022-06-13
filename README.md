@@ -54,7 +54,6 @@
 * MongoDB
 * Express
 
-
 * Vue
 * Vuex
 * Vuex-smart-module
